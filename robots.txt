@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# TODO: reemplazar con el dominio real antes de publicar
-Sitemap: /sitemap.xml
+Sitemap: https://davidr0824.github.io/platinum-beauty-salon/sitemap.xml
