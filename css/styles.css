@@ -336,7 +336,7 @@ h2.section-title { font-size: clamp(1.9rem, 1.5rem + 1.8vw, 2.9rem); }
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(180deg, rgba(13, 11, 8, 0.78) 0%, rgba(13, 11, 8, 0.88) 55%, var(--color-ink) 100%),
+    linear-gradient(180deg, rgba(13, 11, 8, 0.48) 0%, rgba(13, 11, 8, 0.65) 55%, var(--color-ink) 100%),
     url("../assets/images/hero/hero-salon.webp") center 30% / cover no-repeat;
   color: #fff;
   padding-block: var(--space-3xl);
