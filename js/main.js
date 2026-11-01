@@ -246,10 +246,9 @@
     tl.from(".hero-title", { opacity: 0, y: 20 })
       .from(".hero-text", { opacity: 0, y: 20 }, "-=0.55")
       .from(".hero-actions", { opacity: 0, y: 16 }, "-=0.5")
-      .from(".hero-meta", { opacity: 0, y: 16 }, "-=0.45")
-      .from(".hero-bg", { opacity: 0, scale: 1.08 }, "-=0.9");
+      .from(".hero-meta", { opacity: 0, y: 16 }, "-=0.45");
 
-    revealFallback(".hero-title, .hero-text, .hero-actions, .hero-meta, .hero-bg");
+    revealFallback(".hero-title, .hero-text, .hero-actions, .hero-meta");
   }
 
   /* ---------------------------------------------------------------------
