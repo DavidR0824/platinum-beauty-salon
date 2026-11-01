@@ -25,7 +25,7 @@
      --------------------------------------------------------------------- */
   function wireWhatsAppLinks() {
     var defaultLinks = document.querySelectorAll(
-      "#headerWhatsapp, #mobileWhatsapp, #heroWhatsapp, #locationWhatsapp, #finalCtaWhatsapp, #stickyWhatsapp"
+      "#headerWhatsapp, #heroWhatsapp, #locationWhatsapp, #finalCtaWhatsapp, #stickyWhatsapp"
     );
     defaultLinks.forEach(function (link) {
       link.href = buildWhatsAppLink();
