@@ -337,7 +337,7 @@ h2.section-title { font-size: clamp(1.9rem, 1.5rem + 1.8vw, 2.9rem); }
   overflow: hidden;
   background: var(--color-ink);
   color: #fff;
-  padding-block: var(--space-3xl) var(--space-2xl);
+  padding-block: var(--space-3xl);
   text-align: center;
 }
 .hero::before {
